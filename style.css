@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3f94e7;
+    font-family: helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+.logo {
+    max-height: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.signupform {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    padding-bottom: 50px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.signuptitle {
+    font-size: 35px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+input, button {
+    width: 320px;
+    height: 55px;
+    padding: 15px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+}
+
+.submitbutton {
+    background-color: #65c470;
+}
+
+.submitbutton:hover {
+    background-color: green;
+    font-size: 24px;
+}
+
+.altlogin {
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
